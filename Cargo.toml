@@ -1,0 +1,13 @@
+[package]
+
+name = "plause"
+version = "0.0.1"
+authors = ["Jett <whackashoe@gmail.com>"]
+
+[dependencies.rust-crypto]
+git = "https://github.com/whackashoe/rust-crypto.git"
+branch = "final-fix"
+
+[[test]]
+name = "tests"
+path = "tests/tests.rs"

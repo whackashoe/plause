@@ -1,0 +1,12 @@
+[root]
+name = "plause"
+version = "0.0.1"
+dependencies = [
+ "rust-crypto 0.1.0 (git+https://github.com/whackashoe/rust-crypto.git?ref=final-fix#b762527681d224e872433a7b5ba196e06c0c8079)",
+]
+
+[[package]]
+name = "rust-crypto"
+version = "0.1.0"
+source = "git+https://github.com/whackashoe/rust-crypto.git?ref=final-fix#b762527681d224e872433a7b5ba196e06c0c8079"
+
