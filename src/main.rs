@@ -51,6 +51,7 @@ pub enum Mode {
 fn main() {
     let args: Vec<String> = os::args();
     let program = args[0].clone();
+    println!("{} is a proof of concept and should not be considered trustworthy", program);
     let opts = [
         optopt(CONT_ENCRYPT_FILE,  "encrypt-file",  format!("set encryption output file (default: {})", DEFAULT_ENCRYPTFILE).as_slice(), "FILENAME"),
         optopt(CONT_PASSWORD_FILE, "password-file", format!("set password file (default: {})", DEFAULT_PASSWORDECRYPTFILE).as_slice(),   "FILENAME"),
